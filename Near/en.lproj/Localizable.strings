@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Near
+
+  Created by zoolsher on 2018/6/9.
+  Copyright © 2018年 zoolsher. All rights reserved.
+*/
+
+NO_NOTIFICATION_ALERT_TITLE = "I want Notification Auth";
+
+NO_NOTIFICATION_ALERT_MESSAGE = "I will only send the message you need";
+
+NO_NOTIFICATION_ALERT_CANCEL = "OK";

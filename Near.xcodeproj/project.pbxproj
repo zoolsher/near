@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EA44D8E393FE1A18303DA1E /* Pods_Near.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B046EA4684DB4A93086B1E /* Pods_Near.framework */; };
 		C39CEF2A20CBC9D600B71266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39CEF2920CBC9D600B71266 /* AppDelegate.swift */; };
-		C39CEF2C20CBC9D600B71266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39CEF2B20CBC9D600B71266 /* ViewController.swift */; };
-		C39CEF2F20CBC9D600B71266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39CEF2D20CBC9D600B71266 /* Main.storyboard */; };
+		C39CEF2C20CBC9D600B71266 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39CEF2B20CBC9D600B71266 /* StartViewController.swift */; };
 		C39CEF3220CBC9D600B71266 /* Near.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C39CEF3020CBC9D600B71266 /* Near.xcdatamodeld */; };
 		C39CEF3420CBC9D700B71266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39CEF3320CBC9D700B71266 /* Assets.xcassets */; };
 		C39CEF3720CBC9D700B71266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39CEF3520CBC9D700B71266 /* LaunchScreen.storyboard */; };
+		C39CEF4220CBD62F00B71266 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C39CEF4420CBD62F00B71266 /* Localizable.strings */; };
+		C39CEF4720CBED0F00B71266 /* NearNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39CEF4620CBED0F00B71266 /* NearNotification.swift */; };
+		C39CEF4D20CBFBCB00B71266 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39CEF4C20CBFBCB00B71266 /* Alert.swift */; };
+		C39CEF4F20CC01FB00B71266 /* LocalString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39CEF4E20CC01FB00B71266 /* LocalString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13716D40CDD046132FE294FB /* Pods-Near.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Near.release.xcconfig"; path = "Pods/Target Support Files/Pods-Near/Pods-Near.release.xcconfig"; sourceTree = "<group>"; };
+		5B6DEC7C6AE07A7DAFEAC079 /* Pods-Near.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Near.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Near/Pods-Near.debug.xcconfig"; sourceTree = "<group>"; };
 		C39CEF2620CBC9D600B71266 /* Near.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Near.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39CEF2920CBC9D600B71266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C39CEF2B20CBC9D600B71266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C39CEF2E20CBC9D600B71266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C39CEF2B20CBC9D600B71266 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		C39CEF3120CBC9D600B71266 /* Near.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Near.xcdatamodel; sourceTree = "<group>"; };
 		C39CEF3320CBC9D700B71266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C39CEF3620CBC9D700B71266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C39CEF3820CBC9D700B71266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39CEF3F20CBD58300B71266 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		C39CEF4320CBD62F00B71266 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C39CEF4520CBD64200B71266 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C39CEF4620CBED0F00B71266 /* NearNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearNotification.swift; sourceTree = "<group>"; };
+		C39CEF4C20CBFBCB00B71266 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		C39CEF4E20CC01FB00B71266 /* LocalString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalString.swift; sourceTree = "<group>"; };
+		F9B046EA4684DB4A93086B1E /* Pods_Near.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Near.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EA44D8E393FE1A18303DA1E /* Pods_Near.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		375F52FB6D843F225517EC4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B6DEC7C6AE07A7DAFEAC079 /* Pods-Near.debug.xcconfig */,
+				13716D40CDD046132FE294FB /* Pods-Near.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57E834E7583B41DE012E1561 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9B046EA4684DB4A93086B1E /* Pods_Near.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C39CEF1D20CBC9D600B71266 = {
 			isa = PBXGroup;
 			children = (
 				C39CEF2820CBC9D600B71266 /* Near */,
 				C39CEF2720CBC9D600B71266 /* Products */,
+				375F52FB6D843F225517EC4D /* Pods */,
+				57E834E7583B41DE012E1561 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,50 @@
 		C39CEF2820CBC9D600B71266 /* Near */ = {
 			isa = PBXGroup;
 			children = (
-				C39CEF2920CBC9D600B71266 /* AppDelegate.swift */,
-				C39CEF2B20CBC9D600B71266 /* ViewController.swift */,
-				C39CEF2D20CBC9D600B71266 /* Main.storyboard */,
+				C39CEF4B20CBFB1600B71266 /* Common */,
+				C39CEF4A20CBED4100B71266 /* Service */,
+				C39CEF4920CBED2800B71266 /* View */,
+				C39CEF4820CBED1900B71266 /* Delegate */,
 				C39CEF3320CBC9D700B71266 /* Assets.xcassets */,
 				C39CEF3520CBC9D700B71266 /* LaunchScreen.storyboard */,
 				C39CEF3820CBC9D700B71266 /* Info.plist */,
 				C39CEF3020CBC9D600B71266 /* Near.xcdatamodeld */,
+				C39CEF4420CBD62F00B71266 /* Localizable.strings */,
 			);
 			path = Near;
+			sourceTree = "<group>";
+		};
+		C39CEF4820CBED1900B71266 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C39CEF2920CBC9D600B71266 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		C39CEF4920CBED2800B71266 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C39CEF2B20CBC9D600B71266 /* StartViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C39CEF4A20CBED4100B71266 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C39CEF4620CBED0F00B71266 /* NearNotification.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C39CEF4B20CBFB1600B71266 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C39CEF4C20CBFBCB00B71266 /* Alert.swift */,
+				C39CEF4E20CC01FB00B71266 /* LocalString.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C39CEF3B20CBC9D700B71266 /* Build configuration list for PBXNativeTarget "Near" */;
 			buildPhases = (
+				CC3AFC14694D0CB91B6E8D90 /* [CP] Check Pods Manifest.lock */,
 				C39CEF2220CBC9D600B71266 /* Sources */,
 				C39CEF2320CBC9D600B71266 /* Frameworks */,
 				C39CEF2420CBC9D600B71266 /* Resources */,
+				C805ECC7C0650541864BE263 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -109,6 +178,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = C39CEF1D20CBC9D600B71266;
 			productRefGroup = C39CEF2720CBC9D600B71266 /* Products */;
@@ -126,12 +196,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				C39CEF3720CBC9D700B71266 /* LaunchScreen.storyboard in Resources */,
+				C39CEF4220CBD62F00B71266 /* Localizable.strings in Resources */,
 				C39CEF3420CBC9D700B71266 /* Assets.xcassets in Resources */,
-				C39CEF2F20CBC9D600B71266 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C805ECC7C0650541864BE263 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Near/Pods-Near-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Near/Pods-Near-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC3AFC14694D0CB91B6E8D90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Near-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C39CEF2220CBC9D600B71266 /* Sources */ = {
@@ -139,7 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C39CEF3220CBC9D600B71266 /* Near.xcdatamodeld in Sources */,
-				C39CEF2C20CBC9D600B71266 /* ViewController.swift in Sources */,
+				C39CEF2C20CBC9D600B71266 /* StartViewController.swift in Sources */,
+				C39CEF4720CBED0F00B71266 /* NearNotification.swift in Sources */,
+				C39CEF4D20CBFBCB00B71266 /* Alert.swift in Sources */,
+				C39CEF4F20CC01FB00B71266 /* LocalString.swift in Sources */,
 				C39CEF2A20CBC9D600B71266 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,20 +259,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C39CEF2D20CBC9D600B71266 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C39CEF2E20CBC9D600B71266 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C39CEF3520CBC9D700B71266 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C39CEF3620CBC9D700B71266 /* Base */,
+				C39CEF3F20CBD58300B71266 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C39CEF4420CBD62F00B71266 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39CEF4320CBD62F00B71266 /* en */,
+				C39CEF4520CBD64200B71266 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -282,6 +398,7 @@
 		};
 		C39CEF3C20CBC9D700B71266 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6DEC7C6AE07A7DAFEAC079 /* Pods-Near.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +417,7 @@
 		};
 		C39CEF3D20CBC9D700B71266 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13716D40CDD046132FE294FB /* Pods-Near.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
